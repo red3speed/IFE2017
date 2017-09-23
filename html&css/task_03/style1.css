@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#frame {
+    margin: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid #999 1px;
+    overflow: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+#left_frame {
+    float: left;
+    width: 160px;
+}
+
+#right_frame {
+    float: right;
+    width: 80px;
+}
+
+#middle_frame {
+    margin-left: 220px;
+    margin-right: 140px;
+}

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#frame {
+    margin: 20px;
+    padding: 20px 200px 20px 240px;
+    background-color: #eee;
+    border: solid #999 1px;
+    height: 100%;
+    overflow: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    float: left;
+}
+
+#left_frame {
+    width: 160px;
+    margin-left: -100%;
+    background-color: red;
+    position: relative;
+    left: -260px;
+}
+
+#right_frame {
+    width: 80px;
+    margin-right: -200px;
+    background-color: green;
+    position: relative;
+    right: -20px;
+}
+
+#middle_frame {
+    width: 100%;
+}

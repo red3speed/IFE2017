@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#frame {
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: #eee;
+    border: solid #999 1px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+#left_frame {
+    width: 200px;
+    background-color: red;
+}
+
+#right_frame {
+    width: 120px;
+    background-color: green;
+}
+
+#middle_frame {
+    flex: 1;
+    margin: 0 20px 0 20px;
+}
