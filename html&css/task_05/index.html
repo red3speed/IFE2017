@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>零基础HTML及CSS编码（二）</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <header>
+        <img id="logo" src="img/baidu_logo.png">
+        <nav id="header_menu">
+            <ul>
+                <li><a href="http://www.baidu.com" target="blank">百度</a></li>
+                <li><a href="http://www.sina.com" target="blank">新浪</a></li>
+                <li><a href="http://www.163.com" target="blank">网易</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h2>文章标题</h2>
+        <p>文章作者 文章时间</p>
+        <p style="text-indent:2em;">
+            这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落<br>
+            换行了<br/>
+            这是一篇很长的段落 <a href="http://www.baidu.com">百度</a><br/>
+            <img src="img/test.jpg" style="width: 200px;height: 200px"/><br/>
+            这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落<br>
+            换行了<br/>
+            这是一篇很长的段落 <a href="http://www.baidu.com">百度</a>
+        </p>
+    </article>
+    <article>
+        <h2>文章二</h2>
+        <p>文章作者 文章时间</p>
+        <p>
+            这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落 这是一篇很长的段落<br>
+            换行了<br/>
+            这是一篇很长的段落 <a href="http://www.baidu.com">百度</a><br/>
+            <img src="img/test.jpg" style="width: 200px;height: 200px"/><br/>
+        </p>
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+    </article>
+    <article class="mul_pic">
+        <h3>图片</h3>
+        <ul style="list-style: none">
+            <li>
+                <span>图片</span>
+                <br/>
+                <img src="img/test.jpg" style="width: 200px;height: 200px"/>
+            </li>
+            <li><span>好看的图片</span><br/><img src="img/test.jpg" style="width: 200px;height: 200px"/></li>
+            <li><span>好看的图片</span><br/><img src="img/test.jpg" style="width: 200px;height: 200px"/></li>
+        </ul>
+    </article>
+    <article>
+        <h2>文章三</h2>
+        <p>文章作者 文章时间</p>
+        <ol>
+            <li>列表一</li>
+            <li>列表二</li>
+            <li>列表三</li>
+        </ol>
+        <table border="1">
+            <tr>
+                <td>表头</td>
+                <td>表头</td>
+            </tr>
+            <tr>
+                <td>row 1, cell 1</td>
+                <td>row 1, cell 2</td>
+            </tr>
+            <tr>
+                <td>row 2, cell 1</td>
+                <td>row 2, cell 2</td>
+            </tr>
+        </table>
+    </article>
+    <div id="side">
+        <h2 style="border-left: solid 5px #656565;padding-left: 5px">这里以后是一个侧栏</h2>
+        <form>
+            <label class="left_label" for="email_address">请输入邮箱地址:</label>
+            <input id="email_address" placeholder="请输入邮箱地址" type="email">
+            <br/>
+            <label class="left_label"></label>
+            <span>邮箱地址请按格式填写</span>
+            <br/>
+            <label class="left_label" for="password">请输入密码:</label>
+            <input id="password" placeholder="请输入密码" type="password">
+            <br/>
+            <label class="left_label" for="password_again">请再次输入密码: </label>
+            <input id="password_again" placeholder="请再次输入密码" type="password">
+            <br/>
+            <label class="left_label"></label>
+            <span>请输入6-16位密码</span>
+            <br/>
+            <label class="left_label">性别:</label>
+            <input id="male" name="sex" type="radio" checked><label for="male">男</label>
+            <input id="female" name="sex" type="radio"><label for="female">女</label>
+            <br/>
+            <label class="left_label" for="province">地点:</label>
+            <select id="province" name="cars">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+                <option value="guangzhou">广州</option>
+                <option value="shenzhen">深圳</option>
+            </select>
+            <br/>
+            <label class="left_label">爱好:</label>
+            <label><input type="checkbox">足球</label>
+            <label><input type="checkbox">篮球</label>
+            <label><input type="checkbox">羽毛球</label>
+            <br/>
+            <label class="left_label" for="description">个人描述:</label>
+            <textarea id="description" placeholder="请输入个人描述"></textarea>
+            <br/>
+            <input class="submit" type="submit"/>
+        </form>
+    </div>
+    <footer>
+        <span>版权所有&copy;</span>
+    </footer>
+</div>
+</body>
+</html>
