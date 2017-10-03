@@ -24,12 +24,12 @@
 - 左侧的各个模块里面的内容宽度跟随左侧整体宽度同步自适应变化
 - 10张图片需要永远都完整展现，所以会随着宽度变窄，从两行变成三行甚至更多，也有可能随着宽度变宽，变成一行
 
-####任务注意事项
+#### 任务注意事项
 - 只需要完成HTML，CSS代码编写，不需要写JavaScript
 - 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
 - 尽可能多地尝试不同的、更多的样式设定来实践各种CSS属性
 - HTML 及 CSS 代码结构清晰、规范
-####在线学习参考资料
+#### 在线学习参考资料
 - [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
 - [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
 - [慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
